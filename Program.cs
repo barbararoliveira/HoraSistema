@@ -15,7 +15,9 @@ namespace HoraSistema
 
            Console.Write("Neste momento são exatamente: ");
            Console.ForegroundColor = ConsoleColor.Magenta; 
-           Console.WriteLine (DataDoSistema);
+           Console.Write(DataDoSistema);
+           Console.ForegroundColor = ConsoleColor.White;  
+           Console.WriteLine(".");
         }
     }
 }
